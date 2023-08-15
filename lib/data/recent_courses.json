@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Les Bases de la Musique",
+    "time": "1 heure, 25 mins",
+    "icon": "assets/icons/document_1.png",
+    "professor": "Prof. Daniel Foka",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo aspernatur voluptate, voluptates esse, ipsam nihil dolor aliquam quia quaerat iure veniam animi nostrum! Nam vero iure, nemo exercitationem quis voluptates.",
+    "color": "16a058",
+    "chapter": 24,
+    "exam": 12,
+    "reward": 5,
+    "completed": 80.00
+  },
+  {
+    "name": "Chanter pour les zeros",
+    "time": "4 heures, 10 mins",
+    "icon": "assets/icons/document_2.png",
+    "professor": "Prof. Noumsi Jonathan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo distinctio officia, nulla quo modi voluptatum rem pariatur ad amet quos sit saepe debitis nobis? Inventore assumenda earum asperiores rerum est a nesciunt. Nostrum natus tempore expedita pariatur repellat maxime ab facilis, a dolores aperiam cupiditate animi alias? Expedita, adipisci!",
+    "color": "e55d27",
+    "chapter": 22,
+    "exam": 15,
+    "reward": 8,
+    "completed": 61
+  },
+  {
+    "name": "Langue Vernaculaire",
+    "time": "2 heures, 37 mins",
+    "icon": "assets/icons/document_3.png",
+    "professor": "Prof. Brayan Tiwa",
+    "description": "Lorem ipsum dolor amet random text, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nemo distinctio officia, nulla quo modi voluptatum rem pariatur ad amet quos sit saepe debitis nobis? Inventore assumenda earum asperiores rerum est a nesciunt. Nostrum natus tempore expedita pariatur repellat maxime ab facilis, a dolores aperiam cupiditate animi alias? Expedita, adipisci.",
+    "color": "46A4E4",
+    "chapter": 18,
+    "exam": 20,
+    "reward": 3,
+    "completed": 33.33
+  }
+]

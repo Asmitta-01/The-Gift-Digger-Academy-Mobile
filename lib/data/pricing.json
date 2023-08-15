@@ -1,0 +1,17 @@
+[
+  {
+    "name": "STARTUP",
+    "description": "Free Update",
+    "price": 12000
+  },
+  {
+    "name": "STANDARD",
+    "description": "24/7 Support\nFree Update\nLimited Features",
+    "price": 20000
+  },
+  {
+    "name": "PREMIUM",
+    "description": "24/7 Support\nFree Update\nUnlimited Features",
+    "price": 45000
+  }
+]

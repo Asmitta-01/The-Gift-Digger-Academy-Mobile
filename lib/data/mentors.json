@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Rowena",
+    "image": "assets/images/profile1.jpg",
+    "description": "UI Designer"
+  },
+  {
+    "name": "Shella",
+    "image": "assets/images/profile2.jpg",
+    "description": "Web Designer"
+  },
+  {
+    "name": "Daniel Foka",
+    "image": "assets/images/profile3.jpg",
+    "description": "Professeur de Dance"
+  },
+  {
+    "name": "Henry",
+    "image": "assets/images/profile4.jpg",
+    "description": "Professeur de Musique"
+  },
+  {
+    "name": "Paul",
+    "image": "assets/images/profile5.jpg",
+    "description": "Artiste Compositeur"
+  }
+]
