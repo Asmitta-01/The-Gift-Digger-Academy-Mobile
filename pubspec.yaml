@@ -41,6 +41,7 @@ dependencies:
   material_design_icons_flutter: ^7.0.7296
   shimmer: ^3.0.0
   syncfusion_flutter_calendar: ^20.1.56
+  sentry_flutter: ^7.9.0
 
 dependency_overrides:
   google_fonts: ^4.0.0

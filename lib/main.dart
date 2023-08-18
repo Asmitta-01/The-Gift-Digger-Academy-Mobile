@@ -1,13 +1,8 @@
-/*
-* File : Main File
-* We are using our own package (FlutX) : https://pub.dev/packages/flutx
-* Version : 13
-* */
-
-import 'package:demo_tdgacademy/localizations/app_localization_delegate.dart';
-import 'package:demo_tdgacademy/localizations/language.dart';
+// import 'package:demo_tdgacademy/localizations/app_localization_delegate.dart';
+// import 'package:demo_tdgacademy/localizations/language.dart';
 import 'package:demo_tdgacademy/theme/app_notifier.dart';
 import 'package:demo_tdgacademy/theme/app_theme.dart';
+import 'package:sentry_flutter/sentry_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -22,11 +17,19 @@ Future<void> main() async {
   AppTheme.init();
 
   await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-
-  runApp(ChangeNotifierProvider<AppNotifier>(
-    create: (context) => AppNotifier(),
-    child: const MyApp(),
-  ));
+  await SentryFlutter.init(
+    (options) {
+      options.dsn =
+          'https://f48fda17decfbf41ddb345b3e3f580b8@o4505708262064128.ingest.sentry.io/4505708270583808';
+      // Set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
+      // We recommend adjusting this value in production.
+      options.tracesSampleRate = 1.0;
+    },
+    appRunner: () => runApp(ChangeNotifierProvider<AppNotifier>(
+      create: (context) => AppNotifier(),
+      child: const MyApp(),
+    )),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -45,8 +48,8 @@ class MyApp extends StatelessWidget {
               child: child!,
             );
           },
-          localizationsDelegates: [AppLocalizationsDelegate(context)],
-          supportedLocales: Language.getLocales(),
+          // localizationsDelegates: [AppLocalizationsDelegate(context)],
+          // supportedLocales: Language.getLocales(),
           home: const SplashScreen(),
         );
       },
